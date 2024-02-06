@@ -1,41 +1,5 @@
 
 @startuml
-
-actor User
-
-note over User: User enters book title and author for editing
-User -> System: Edit Book Information request
-activate System
-
-alt Both title and author provided
-  System -> Database: Check if book exists
-  activate Database
-    Database --> System: Exist
-  deactivate Database
-
-  System -> Database: Edit book information
-  activate Database
-    Database --> System: Book information updated successfully
-  deactivate Database
-
-  System --> User: Display success message
-else Either title or author is missing
-  System --> User: Display error message
-end
-
-User -> System: Logout request
-deactivate System
-
-@enduml
-
-
-
-
-
-
-
-
-@startuml
 actor User
 participant System
 database Database

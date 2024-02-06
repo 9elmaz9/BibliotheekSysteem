@@ -1,4 +1,3 @@
-
 @startuml
 start
 :User enters book title and author for removal;
