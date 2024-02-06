@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="289e0c9b-9abf-4bab-93b5-94bbdfa3a019" name="Changes" comment="" />
+    <list default="true" id="289e0c9b-9abf-4bab-93b5-94bbdfa3a019" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Bibliotheekservice/BibliotheekFunctionalitetFlowChart.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blauwdruk.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Klantenservice/informatie_bewerken.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Klantenservice/informatie_bewerken.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Klantenservice/inlogen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Klantenservice/inlogen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/boek_toevoegen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/boek_toevoegen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/boek_verdwijnen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/boek_verdwijnen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/informatie_bewerken.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/informatie_bewerken.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/inloggen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/inloggen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/UseCaceBibliotheekSysteem.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/UseCaceBibliotheekSysteem.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +26,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/FlowchartUserCases/Klantenservice/inlogen.puml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase/Klantenservice/inloggen.puml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2bzHp9JxfwIoaWIDOwmE3eC21q5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +44,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Intec/AppData/Local/Temp/41c26fca-4dd7-491d-b2ac-a08f15e1239e_IceCreamShopTesting.zip.39e/IceCreamShopTesting/BibliotheekSysteem/src/main/java/AnalyseBibliotheekSysteem/SeaquenceUseCase"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Intec\AppData\Local\Temp\41c26fca-4dd7-491d-b2ac-a08f15e1239e_IceCreamShopTesting.zip.39e\IceCreamShopTesting\BibliotheekSysteem\src\main\java\AnalyseBibliotheekSysteem\SeaquenceUseCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Intec\AppData\Local\Temp\41c26fca-4dd7-491d-b2ac-a08f15e1239e_IceCreamShopTesting.zip.39e\IceCreamShopTesting\BibliotheekSysteem\src\main\java\AnalyseBibliotheekSysteem\FlowchartUserCases\Klantenservice" />
+      <recent name="C:\Users\Intec\AppData\Local\Temp\41c26fca-4dd7-491d-b2ac-a08f15e1239e_IceCreamShopTesting.zip.39e\IceCreamShopTesting\BibliotheekSysteem\src\main\java\AnalyseBibliotheekSysteem\flowchart" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +68,16 @@
       <updated>1707211170245</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
