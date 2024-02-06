@@ -1,0 +1,35 @@
+@startuml
+start
+:User enters book title and author for editing;
+:Check if both title and author are provided?;
+if (Yes) then
+  :Edit book information in the library database;
+  :Display success message: "Book information updated successfully!";
+else (No)
+  :Display error message: "Invalid input. Title and author are required.";
+endif
+stop
+@enduml
+
+
+
+
+
+
+
+@startuml
+start
+:User enters book title and author for editing;
+if (Both title and author provided?) then (Yes)
+  :Check if book exists in the database;
+  if (Exist) then (Yes)
+    :Edit book information in the library database;
+    :Display success message: "Book information updated successfully!";
+  else (No)
+    :Display error message: "Book not found in the library.";
+  endif
+else (No)
+  :Display error message: "Invalid input. Title and author are required.";
+endif
+stop
+@enduml

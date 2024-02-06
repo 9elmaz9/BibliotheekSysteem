@@ -1,0 +1,48 @@
+@startuml
+
+@startuml
+start
+:Input User;
+if (Check Username and Password) then (No)
+  :Display Error Message;
+else (Yes)
+  stop
+endif
+@enduml
+
+
+
+
+@startuml
+start
+:User enters their username and password;
+:User inputs are checked against stored credentials;
+if (Valid Credentials) then (Yes)
+  :Display success message: "Login successful!";
+else (No)
+  :Display error message: "Login failed. Invalid credentials.";
+endif
+stop
+@enduml
+
+
+
+
+
+
+
+@startuml
+start
+:User enters username and password;
+if (Check against stored credentials) then (Valid)
+  :Load user profile;
+  if (Profile loaded successfully) then (Yes)
+    :Display success message: "Login successful!";
+  else (No)
+    :Display error message: "Error loading profile. Please try again.";
+  endif
+else (Invalid)
+  :Display error message: "Login failed. Invalid credentials.";
+endif
+stop
+@enduml
