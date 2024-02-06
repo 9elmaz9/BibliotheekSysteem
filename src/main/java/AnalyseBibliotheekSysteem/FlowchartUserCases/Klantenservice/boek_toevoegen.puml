@@ -1,17 +1,4 @@
 
-@startuml
-start
-:User enters book title and author;
-:Check if both title and author are provided?;
-if (Yes) then
-  :Add book to the library database;
-  :Display success message: "Book added successfully!";
-else (No)
-  :Display error message: "Invalid input. Title and author are required.";
-endif
-stop
-@enduml
-
 
 
 
