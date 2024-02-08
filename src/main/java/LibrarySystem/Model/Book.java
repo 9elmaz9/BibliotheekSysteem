@@ -1,4 +1,4 @@
-package LibrarySystem;
+package LibrarySystem.Model;
 
 public class Book {
     private String title;

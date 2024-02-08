@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="289e0c9b-9abf-4bab-93b5-94bbdfa3a019" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/UMLNEW.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/UMLgeneral.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/UMNBIG.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/UML_general.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Repository/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Repository/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Service/LibraryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LibrarySystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LibrarySystem/Model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <module name="BibliotheekSysteem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LibrarySystem.*" />
+          <option name="PATTERN" value="LibrarySystem.Repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707309925329</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add">
+      <created>1707394078999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707394079000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

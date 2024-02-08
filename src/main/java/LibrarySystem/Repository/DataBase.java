@@ -1,4 +1,8 @@
-package LibrarySystem;
+package LibrarySystem.Repository;
+
+import LibrarySystem.Model.Admin;
+import LibrarySystem.Model.Book;
+import LibrarySystem.Model.User;
 
 import java.util.ArrayList;
 import java.util.List;

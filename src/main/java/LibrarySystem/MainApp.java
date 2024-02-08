@@ -1,5 +1,11 @@
 package LibrarySystem;
 
+import LibrarySystem.Model.Admin;
+import LibrarySystem.Model.Book;
+import LibrarySystem.Model.User;
+import LibrarySystem.Repository.DataBase;
+import LibrarySystem.Service.LibraryService;
+
 import java.util.Scanner;
 
 public class MainApp {
@@ -72,10 +78,6 @@ public class MainApp {
                             System.out.println("- The Catcher in the Rye, J.D. Salinger");
                             System.out.println("- Animal Farm, George Orwell");
                             System.out.println("- The Hobbit, J.R.R. Tolkien");
-
-
-
-
 
                             String title = scanner.nextLine();
                             Book bookByTitle = dataBase.getBookByTitle(title);

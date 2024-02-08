@@ -1,4 +1,8 @@
-package LibrarySystem;
+package LibrarySystem.Service;
+
+import LibrarySystem.Model.Admin;
+import LibrarySystem.Model.Book;
+import LibrarySystem.Repository.DataService;
 
 public class CustomerService  {
     private DataService dataService;

@@ -1,10 +1,13 @@
-package LibrarySystem;
+package LibrarySystem.Service;
 
-public class Admin  extends User {
+import LibrarySystem.Model.Book;
+import LibrarySystem.Repository.DataService;
+import LibrarySystem.Model.User;
+
+public class LibraryService  {
     private DataService dataService;
 
-    public Admin(String username, String password, DataService dataService) {
-        super(username, password);
+    public LibraryService(DataService dataService) {
         this.dataService = dataService;
     }
 
@@ -30,4 +33,18 @@ public class Admin  extends User {
         }
         return false;
     }
+
+    public boolean registerUser(String username, String password) {
+        User newUser = new User(username, password);
+        return dataService.addUser(newUser);
+    }
+
+    public boolean manageUser(String username) {
+        User user = dataService.getUserByUsername(username);
+        if (user != null) {
+            return dataService.removeUser(user);
+        }
+        return false;
+    }
 }
+
