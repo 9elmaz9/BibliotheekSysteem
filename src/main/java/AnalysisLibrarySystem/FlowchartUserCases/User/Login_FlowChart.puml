@@ -12,38 +12,15 @@ Stop
 @enduml
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2 version
 @startuml
 start
-:Gebruiker klikt op "Inloggen";
-:Voer gebruikersnaam en wachtwoord in;
-if (Inloggegevens correct?) then (Ja)
-  :Gebruiker ingelogd;
-  :Toon welkomstbericht;
-else (Nee)
-  :Toon foutmelding "Onjuiste inloggegevens";
+:Enter username;
+:Enter password;
+if (Username and password are correct?) then (yes)
+    :Login successful;
+else (no)
+    :Login error;
 endif
 stop
 @enduml
-
-
-

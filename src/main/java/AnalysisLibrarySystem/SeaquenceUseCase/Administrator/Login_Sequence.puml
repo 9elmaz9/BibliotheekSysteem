@@ -1,4 +1,27 @@
 @startuml
+actor Admin
+participant "Library System" as LS
+Admin -> LS: Enter admin username
+Admin -> LS: Enter admin password
+LS --> Admin: Admin login successful / Admin login error
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+old version
+@startuml
 actor User
 participant "LibrarySystem" as LibrarySystem
 

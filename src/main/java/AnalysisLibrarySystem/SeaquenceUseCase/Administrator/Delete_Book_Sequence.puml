@@ -1,7 +1,27 @@
+
 @startuml
+actor Admin
+participant "Library System" as LS
+Admin -> LS: Enter the title of the book to delete
+LS --> Admin: Book successfully deleted / Error deleting book
+@enduml
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+old version
+@startuml
 actor User
-
 note over User: User enters book title and author for removal
 User -> System: Remove Book request
 activate System

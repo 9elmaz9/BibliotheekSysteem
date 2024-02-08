@@ -13,9 +13,18 @@ Stop
 @enduml
 
 
-
-
-
+2version
+@startuml
+start
+:Enter admin username;
+:Enter admin password;
+if (Username and password are correct?) then (yes)
+    :Admin login successful;
+else (no)
+    :Admin login error;
+endif
+stop
+@enduml
 
 
 

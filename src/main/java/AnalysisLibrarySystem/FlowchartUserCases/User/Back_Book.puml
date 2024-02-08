@@ -15,35 +15,25 @@ endif
 Stop
 @enduml
 
-
-
-
-
-
-
-
-
-
-
-
-
+2version
 
 @startuml
 start
-:Gebruiker vraagt om een boek terug te brengen;
-:Scan het terug te brengen boek;
-if (Boek correct?) then (Ja)
-  :Boek terug inleveren;
-  if (Succesvol?) then (Ja)
-    :Bericht "Boek succesvol teruggebracht" tonen;
-  else (Nee)
-    :Bericht "Boek kon niet worden teruggebracht" tonen;
-  endif
-else (Nee)
-  :Bericht "Ongeldig boek" tonen;
+:Enter the title of the book you want to return;
+if (Book is borrowed by user?) then (yes)
+    :Book successfully returned;
+else (no)
+    :The book was not borrowed by you or not found;
 endif
 stop
 @enduml
+
+
+
+
+
+
+
 
 
 

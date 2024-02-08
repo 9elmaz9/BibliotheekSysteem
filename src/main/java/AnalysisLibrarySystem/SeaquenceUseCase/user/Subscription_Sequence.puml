@@ -1,3 +1,39 @@
+[15:24] Nina Charles
+Register:
+[15:25] Nina Charles
+@startuml
+actor User
+participant "Library System" as LS
+User -> LS: Enter new username
+User -> LS: Enter new password
+User -> LS: Confirm password
+LS --> User: User successfully registered / Passwords do not match
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+old version
 @startuml
 actor User
 participant "LibrarySystem" as LibrarySystem
@@ -17,16 +53,6 @@ end
 deactivate Librarysystem
 deactivate User
 @enduml
-
-
-
-
-
-
-
-
-
-
 
 @startuml
 actor Gebruiker

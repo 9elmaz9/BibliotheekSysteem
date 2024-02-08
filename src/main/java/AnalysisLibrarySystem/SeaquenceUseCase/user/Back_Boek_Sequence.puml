@@ -1,6 +1,25 @@
 
 @startuml
 actor User
+participant "Library System" as LS
+User -> LS: Enter the title of the book you want to return
+LS --> User: Book successfully returned / The book was not borrowed by you or not found
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+old version
+@startuml
+actor User
 participant "LibrarySystem" as LibrarySystem
 
 activate User
@@ -22,15 +41,6 @@ end
 deactivate Librarysystem
 deactivate User
 @enduml
-
-
-
-
-
-
-
-
-
 
 
 

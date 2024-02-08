@@ -1,5 +1,27 @@
 @startuml
 actor User
+participant "Library System" as LS
+User -> LS: Enter username
+User -> LS: Enter password
+LS --> User: Login successful / Login error
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+old version
+@startuml
+actor User
 participant "LibrarySystem" as LibrarySystem
 
 activate User

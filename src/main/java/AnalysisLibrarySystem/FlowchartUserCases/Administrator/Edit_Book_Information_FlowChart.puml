@@ -1,4 +1,29 @@
+@startuml
+start
+:Enter the title of the book to edit;
+:Enter the new title of the book;
+:Enter the new author of the book;
+:Book information successfully edited;
+stop
+@enduml
+has context menu
+Compose
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+extra
 @startuml
 :Administrator enters book title and author for editing;
 if (Both title and author provided?) then (Yes)

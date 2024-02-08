@@ -16,32 +16,17 @@ Stop
 @enduml
 
 
-
-
-
-
-
-
-
-
-
-
-
+éversion
 
 @startuml
 start
-:Gebruiker vraagt om een abonnement;
-if (Abonnement aanvragen?) then (Ja)
-  :Vraag gebruikersinformatie;
-  :Verwerk abonnementsaanvraag;
-  if (Succesvol?) then (Ja)
-    :Bericht "Abonnement succesvol aangemaakt" tonen;
-  else (Nee)
-    :Bericht "Abonnement kon niet worden aangemaakt" tonen;
-  endif
-else (Nee)
-  :Toon beschikbare abonnementsopties;
+:Enter new username;
+:Enter new password;
+:Confirm password;
+if (Passwords match?) then (yes)
+    :User successfully registered;
+else (no)
+    :Passwords do not match;
 endif
 stop
 @enduml
-
