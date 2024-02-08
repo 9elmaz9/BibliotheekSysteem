@@ -1,46 +1,77 @@
 package LibrarySystem;
 
-public class CustomerService  implements DataService{
+public class CustomerService  {
+    private DataService dataService;
 
-        private DataService dataService;
+    public CustomerService(DataService dataService) {
+        this.dataService = dataService;
+    }
 
-        public CustomerService(DataService dataService) {
-            this.dataService = dataService;
+    // Методы для работы с книгами
+    public boolean addBook(String title, String author) {
+        Book book = new Book(title, author);
+        return dataService.addBook(book);
+    }
+
+    public boolean deleteBook(String title) {
+        Book book = dataService.getBookByTitle(title);
+        if (book != null) {
+            return dataService.removeBook(book);
         }
-
-
-    @Override
-    public Book searchBook(String title) {
-        return null;
-    }
-
-    @Override
-    public boolean borrowBook(Book book) {
         return false;
     }
 
-    @Override
-    public boolean returnBook(Book book) {
+    public boolean editBookInformation(String title, String newTitle, String newAuthor) {
+        Book book = dataService.getBookByTitle(title);
+        if (book != null) {
+            // Edit book information
+            book.setTitle(newTitle);
+            book.setAuthor(newAuthor);
+            return true;
+        }
         return false;
     }
 
-    @Override
-    public boolean addUser(User user) {
+    // Methods for working with the administrator
+    public boolean loginAsAdmin(String username, String password) {
+        Admin admin = dataService.getAdminByUsername(username);
+        if (admin != null && admin.getPassword().equals(password)) {
+            return true;
+        }
         return false;
     }
 
-    @Override
-    public boolean removeUser(User user) {
+    public boolean addBookAsAdmin(String username, String password, String title, String author) {
+        // Check if logged in as admin
+        if (loginAsAdmin(username, password)) {
+            Book book = new Book(title, author);
+            return dataService.addBook(book);
+        }
         return false;
     }
 
-    @Override
-    public boolean addBook(Book book) {
+    public boolean deleteBookAsAdmin(String username, String password, String title) {
+        // Check if logged in as admin
+        if (loginAsAdmin(username, password)) {
+            Book book = dataService.getBookByTitle(title);
+            if (book != null) {
+                return dataService.removeBook(book);
+            }
+        }
         return false;
     }
 
-    @Override
-    public boolean removeBook(Book book) {
+    public boolean editBookInformationAsAdmin(String username, String password, String title, String newTitle, String newAuthor) {
+        // Check if logged in as admin
+        if (loginAsAdmin(username, password)) {
+            Book book = dataService.getBookByTitle(title);
+            if (book != null) {
+                // Edit book information
+                book.setTitle(newTitle);
+                book.setAuthor(newAuthor);
+                return true;
+            }
+        }
         return false;
     }
 }
