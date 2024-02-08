@@ -1,4 +1,65 @@
 @startuml
+
+actor User
+actor Admin
+
+
+left to right direction
+skinparam packageStyle rectangle
+
+rectangle "Library System" {
+    User --> (Login)
+    User --> (Register)
+    User --> (Search for a book by title)
+    User --> (Borrow a book)
+    User --> (Return a book)
+
+
+
+    Admin --> (Login as Admin)
+    Admin --> (Register As Admin)
+    Admin --> (Add a book as Admin)
+    Admin --> (Delete a book as Admin)
+    Admin --> (Edit book information as Admin)
+
+}
+
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD VERSION
+@startuml
 left to right direction
 
 package "Library System" {

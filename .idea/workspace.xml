@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="289e0c9b-9abf-4bab-93b5-94bbdfa3a019" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Registration_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/CustomerService/Add_Book_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Add_Book_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/CustomerService/Delete_Book_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Delete_Book_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/CustomerService/Edit_Book_Information_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Edit_Book_Information_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/CustomerService/Login_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Login_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Back_Book.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Back_Book.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Loan_Book_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Loan_Book_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Login_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Login_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Search_Book_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Search_Book_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Subscription_FlowChart.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/User/Subscription_FlowChart.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/CustomerService/Add_Book_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/Administrator/Add_Book_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/CustomerService/Delete_Book_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/Administrator/Delete_Book_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/CustomerService/Edit_Book_Information_Sequense.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/CustomerService/Login_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/Administrator/Login_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/LibraryService/Library_Functionality_Sequence.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Back_Boek_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Back_Boek_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Loan_Book_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Loan_Book_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Login_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Login_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Search_Book_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Search_Book_Sequence.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Subscription_Sequence.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/user/Subscription_Sequence.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/Use_Case_Bibliotheek_Systeem.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/Use_Case_Bibliotheek_Systeem.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/Administrator/Login_FlowChart.puml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/FlowchartUserCases/LibraryService/Library_Functionality_FlowChart.puml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/Administrator/Edit_Book_Information_Sequense.puml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/SeaquenceUseCase/Administrator/Login_Sequence.puml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AnalysisLibrarySystem/Use_Case_Bibliotheek_Systeem.puml" root0="SKIP_INSPECTION" />
   </component>
@@ -183,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707399960706</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add">
+      <created>1707402554029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707402554029</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
