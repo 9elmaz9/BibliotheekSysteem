@@ -1,3 +1,30 @@
+
+
+old version
+@startuml
+actor Admin
+participant "LibrarySystem" as LibrarySystem
+
+activate Admin
+Admin -> LibrarySystem: Click on "Login"
+activate DataBase
+
+LibrarySystem -> LibrarySystem: Enter username and password
+     alt (Login details correct?)
+     DataBase -> Admin: Admin logged in
+     LibrarySystem -> Admin: Show welcome message
+else (No)
+     DataBase -> Admin: Show error message "Incorrect login details"
+end
+
+deactivate DataBase
+deactivate Admin
+@enduml
+
+
+
+
+
 @startuml
 actor Admin
 participant "Library System" as LS
