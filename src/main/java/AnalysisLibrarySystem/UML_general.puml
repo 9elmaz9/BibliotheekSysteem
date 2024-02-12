@@ -1,0 +1,68 @@
+@startuml
+
+class User {
+  - username: String
+  - password: String
+}
+
+class Admin {
+  - username: String
+  - password: String
+}
+
+class Book {
+  - title: String
+  - author: String
+  - available: boolean
+}
+
+interface DataService {
+  + addBook(book: Book): boolean
+  + getBookByTitle(title: String): Book
+  + removeBook(book: Book): boolean
+  + borrowBook(book: Book): boolean
+  + returnBook(book: Book): boolean
+  + getAdminByUsername(username: String): Admin
+}
+
+class DataBase {
+  - users: List<User>
+  - admins: List<Admin>
+  - books: List<Book>
+  + addAdmin(admin: Admin): boolean
+  + removeAdmin(admin: Admin): boolean
+  + addUser(user: User): boolean
+  + getUserByUsername(username: String): User
+  + removeUser(user: User): boolean
+  + initializeBooks(): void
+}
+
+class LibraryService {
+  - dataService: DataService
+  + addBook(title: String, author: String): boolean
+  + deleteBook(title: String): boolean
+  + editBookInformation(title: String, newTitle: String, newAuthor: String): boolean
+}
+
+
+class CustomerService {
+  - dataService: DataService
+  + addBook(title: String, author: String): boolean
+  + deleteBook(title: String): boolean
+  + editBookInformation(title: String, newTitle: String, newAuthor: String): boolean
+  + loginAsAdmin(username: String, password: String): boolean
+  + addBookAsAdmin(username: String, password: String, title: String, author: String): boolean
+  + deleteBookAsAdmin(username: String, password: String, title: String): boolean
+  + editBookInformationAsAdmin(username: String, password: String, title: String, newTitle: String, newAuthor: String): boolean
+}
+
+User -|> User
+Admin --|> User
+Book -- DataService
+
+DataService <|... DataBase
+DataService <|.. LibraryService
+DataService <|... CustomerService
+
+
+@enduml
