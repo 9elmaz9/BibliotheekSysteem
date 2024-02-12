@@ -1,6 +1,4 @@
-[15:24] Nina Charles
-Register:
-[15:25] Nina Charles
+
 @startuml
 actor User
 participant "Library System" as LS
