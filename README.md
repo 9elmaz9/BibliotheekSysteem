@@ -3,7 +3,7 @@
 Welcome to the Library System! This Java application allows users to manage library resources, including books and user accounts, through a simple command-line interface.
 
 ![Library System](https://i.pinimg.com/originals/14/b6/70/14b670f183eb1a0ea98d5379f36edd86.jpg)
-![Library System](images/bo.png)
+
 
 ## Features
 - **User Management:** Users can log in, search for books, borrow and return books, and register if they're new users.
